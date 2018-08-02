@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">calculator2.0</string>
+
+    <string name="conversion_type">Conversion Options</string>
+    <string name="Binary">Binary</string>
+    <string name="Hex_Decimal">Hex</string>
+    <string name="Weight">Weight</string>
+    <string name="Length">Length</string>
+    <string name="Calculate">Calculate</string>
+</resources>
