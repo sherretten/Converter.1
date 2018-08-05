@@ -18,14 +18,14 @@ public class Binary extends AppCompatActivity {
         Calculate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                EditText editText = findViewById(R.id.editText);
-                EditText editText2 = findViewById(R.id.editText2);
+                EditText Binary_ET = findViewById(R.id.Binary_ET);
+                EditText Hex_ET = findViewById(R.id.editText2);
                 TextView textView = findViewById(R.id.textView);
                 TextView textView2 = findViewById(R.id.textView3);
 
-                int binary = Integer.parseInt(editText.getText().toString());
-                int tobinary = Integer.parseInt(editText2.getText().toString());
-
+                int binary = Integer.parseInt(Binary_ET.getText().toString());
+                int tobinary = Integer.parseInt(Hex_ET.getText().toString());
+                textView.setText(binary);
             }
         });
     }
