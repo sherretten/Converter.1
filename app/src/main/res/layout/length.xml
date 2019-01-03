@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Length">
+    tools:context=".Length"
+    android:background="#008ECC">
 
     <EditText
         android:id="@+id/MilesET"
@@ -19,6 +20,8 @@
         android:ems="10"
         android:hint="@string/Miles"
         android:inputType="number"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"

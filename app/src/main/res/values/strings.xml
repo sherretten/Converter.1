@@ -1,14 +1,21 @@
 <resources>
-    <string name="app_name">calculator2.0</string>
+    <string name="app_name">Converter</string>
 
     <string name="conversion_type">Conversion Options</string>
     <string name="Binary">Binary</string>
     <string name="Hex_Decimal">Hex</string>
     <string name="Weight">Mass</string>
-    <string name="Length">Length</string>
+    <string name="Length">Miles-KM</string>
     <string name="Calculate">Calculate</string>
     <string name="Kilometers">Kilometer</string>
     <string name="Miles">Miles</string>
     <string name="appwidget_text">EXAMPLE</string>
     <string name="add_widget">Add widget</string>
+    <string name="K_Miles">KM-Miles</string>
+    <string name="KG_Pounds">kg->Lbs</string>
+    
+    <string-array name="Mass">
+        <item>Kilometers</item>
+        <item>Miles</item>
+    </string-array>
 </resources>
